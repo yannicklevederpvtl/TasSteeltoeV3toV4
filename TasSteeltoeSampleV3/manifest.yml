@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: tas-steeltoe-sample
+  - name: tas-steeltoe-sample-v3
     buildpacks:
       - dotnet_core_buildpack
     memory: 512M
