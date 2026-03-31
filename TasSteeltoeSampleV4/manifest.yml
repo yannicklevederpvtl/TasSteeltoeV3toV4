@@ -1,0 +1,11 @@
+---
+applications:
+  - name: tas-steeltoe-sample-v4
+    buildpacks:
+      - dotnet_core_buildpack
+    memory: 512M
+    disk_quota: 1G
+    env:
+      ASPNETCORE_ENVIRONMENT: Development
+      DOTNET_CLI_TELEMETRY_OPTOUT: "true"
+      DOTNET_NOLOGO: "true"
